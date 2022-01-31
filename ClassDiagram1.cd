@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PrivateScoolSystem.Controllers.AssignmentController" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAABEACAAAAAIAAAAAgBBAAAAAA=</HashCode>
+      <FileName>Controllers\AssignmentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Controllers.Controller" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Controllers.CourseController" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CourseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Controllers.StudentController" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIBAAAAAQAAAAAAAAAAAAAAEBAAAAAAIAAAAA=</HashCode>
+      <FileName>Controllers\StudentController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Controllers.TrainerController" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAAAAAAAAAAAAAAAAAAIAAAAgAAAAABAAAAA=</HashCode>
+      <FileName>Controllers\TrainerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Entities.Assignment" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAgAEAAQIIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Entities\Assignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Entities.Course" Collapsed="true">
+    <Position X="27.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAIAAEAAAAAAMAAAAAAIAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Core\Entities\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Entities.Student" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAABAAAAg=</HashCode>
+      <FileName>Core\Entities\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Entities.Trainer" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAAABAAAAAAAAAABAABAAAAA=</HashCode>
+      <FileName>Core\Entities\Trainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Migrations.CreateAssignment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202112201040293_CreateAssignment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Migrations.newTrainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202112211414121_newTrainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Migrations.removetrainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202112211417133_removetrainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Migrations.Configuration" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.PrivateSchoolDbContext" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Persistence\PrivateSchoolDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Program" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Application" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Repositories.AssignmentRepository" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\Repositories\AssignmentRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Repositories.CourseRepository" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\Repositories\CourseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Repositories.StudentRepository" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\Repositories\StudentRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Repositories.TrainerRepository" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistence\Repositories\TrainerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Persistence.Repositories.Repository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAgAAAABAAAAABAAAAAAIAAAAAgAAAIAEAAA=</HashCode>
+      <FileName>Persistence\Repositories\Repository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Persistence.UnitOfWork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAABAIAAAAAEAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Persistence\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PrivateScoolSystem.Menu.StartMenu" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAgEAAAQAAAAAAAQAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Menu\StartMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Views.Validations.Validation" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEAAAOAAAAgAAEiEgAgAAgQAAADAAABABAAQAA=</HashCode>
+      <FileName>Views\Validations\Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Views.ViewAssignment" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIEAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Views\ViewAssignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Views.ViewCourse" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Views\ViewCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Views.ViewStudent" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAACAAAAAAAAAAAAAAAAIAEAAAAAAAA=</HashCode>
+      <FileName>Views\ViewStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrivateScoolSystem.Views.ViewTrainer" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACQAAA=</HashCode>
+      <FileName>Views\ViewTrainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PrivateScoolSystem.IRepositories.IAssignmentRepository" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IRepositories\IAssignmentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PrivateScoolSystem.IRepositories.ICourseRepository" Collapsed="true">
+    <Position X="3.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IRepositories\ICourseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PrivateScoolSystem.IRepositories.IRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="7" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAABAAAAAAIAAAAAgAAAIAEAAA=</HashCode>
+      <FileName>Core\IRepositories\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PrivateScoolSystem.IRepositories.IStudentRepository" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IRepositories\IStudentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PrivateScoolSystem.IRepositories.ITrainerRepository" Collapsed="true">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IRepositories\ITrainerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PrivateScoolSystem.Core.IUnitOfWork" Collapsed="true">
+    <Position X="22.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Core\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PrivateScoolSystem.Enums.CourseStreamEnum" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Core\Entities\Enums\CourseStreamEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PrivateScoolSystem.Enums.CourseTypeEnum" Collapsed="true">
+    <Position X="24.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Entities\Enums\CourseTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
